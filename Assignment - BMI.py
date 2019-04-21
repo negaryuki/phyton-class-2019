@@ -12,8 +12,11 @@ if BMI <= 18.5:
 elif 18.5 < BMI <= 25:
     print('your BMI is: ', BMI)
     print('Result is : Normal :)')
-elif 25< BMI < 30:
+elif 25 < BMI < 30:
     print('your BMI is: ', BMI)
     print('Result is : Overweight :(')
+else:
+    print('your BMI is: ', BMI)
+    print('Result is : Obesity :((')
 
 
