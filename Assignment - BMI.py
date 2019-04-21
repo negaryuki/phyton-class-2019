@@ -1,10 +1,12 @@
+print("Welcome to Negar's BMI calculator ! :D ")
+
+print('Please enter your weight(Kg):')
 weight = float(input())
+print('Almost there, now please enter your height(m):')
 height = float(input())
 
 BMI = weight / (height * height)
 
-print(weight, 'Please enter weight (Kg)')
-print(height, 'Please enter height (m)')
 
 if BMI <= 18.5:
     print('your BMI is: ', BMI)
