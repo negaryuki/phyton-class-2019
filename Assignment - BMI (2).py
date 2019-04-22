@@ -19,7 +19,7 @@ print('and your BMI is: ', BMI)
 if BMI <= 18.5:
     print('Result is : Underweight :(')
 elif 18.5 < BMI <= 25:
-    print('Result is : Normal :) Great !')
+    print('Result is : Normal :P Great !')
 elif 25 < BMI < 30:
     print('Result is : Overweight :(')
 else:
