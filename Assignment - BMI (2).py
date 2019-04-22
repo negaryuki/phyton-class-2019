@@ -7,7 +7,7 @@ height = float(input())
 BMI = weight / (height * height)
 
 print('Are the inputs based on SI?')
-    if weight.is
+if
 
 print('and your BMI is: ', BMI)
 
