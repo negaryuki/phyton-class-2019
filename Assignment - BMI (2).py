@@ -1,4 +1,4 @@
-print("Welcome to Negar's BMI calculator ! :D ")
+print("Welcome to Negar's BMI calculator !\n :D ")
 
 print("First, Please tell me, will you use SI units?\n Answer with Yes or No ")
 
