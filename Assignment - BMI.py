@@ -1,4 +1,4 @@
-print("Welcome to Negar's BMI calculator ! :D ")
+print("Welcome to Negar's BMI calculator !\n (^o^)/")
 
 print('Please enter your weight(Kg):')
 weight = float(input())
