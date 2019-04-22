@@ -1,26 +1,26 @@
 print("Welcome to Negar's BMI calculator ! :D ")
 
-print('Please enter your weight(Kg):')
-weight = float(input())
-print('Almost there, now please enter your height(m):')
-height = float(input())
-BMI = weight / (height * height)
+print("First, Please tell me, will you use SI units?\n Answer with Yes or No ")
 
-print('Are the inputs based on SI?')
-if
+answer = input()
+
+print('Please enter your weight:')
+weight = float(input())
+print('Almost there, now please enter your height:')
+height = float(input())
+
+if answer == "Yes" or "yes":
+    BMI = weight / (height * height)
+else:
+    BMI = 703.0 * (weight / (height ** 2))
 
 print('and your BMI is: ', BMI)
 
 if BMI <= 18.5:
     print('Result is : Underweight :(')
 elif 18.5 < BMI <= 25:
-
     print('Result is : Normal :) Great !')
 elif 25 < BMI < 30:
-
     print('Result is : Overweight :(')
 else:
-
     print('Result is : Obesity :((')
-
-
