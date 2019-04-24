@@ -19,5 +19,3 @@ elif 25 < BMI < 30:
 else:
 
     print('Result is : Obesity :,((')
-
-

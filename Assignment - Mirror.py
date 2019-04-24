@@ -1,12 +1,15 @@
-lst = ["Left -> -> -> ->", "Right -> -> ->"]
+text = "Left -> -> -> -> Right -> -> ->"
 
-mid = len(lst) // 2
+mid = len(text) // 2
 
-right = lst[mid:]
-left = lst[:mid]
+right = text[mid:]
+left = text[:mid]
 
-mirror_right = lst[mid::-1]
-
-print(mirror_right)
+mirror_right = right[::-1]
+mirror_left = left[::-1]
 
 print(right, left)
+
+print(mirror_right, right)
+print(left, mirror_left)
+
