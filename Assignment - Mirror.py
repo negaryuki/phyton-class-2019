@@ -1,4 +1,4 @@
-text = "Left -> -> -> -> Right -> -> ->"
+text = "Left -> -> -> -> Right -> -> -> "
 
 mid = len(text) // 2
 
