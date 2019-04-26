@@ -8,3 +8,4 @@ while i < number-1:
         is_prime = False
 
 print(is_prime)
+
