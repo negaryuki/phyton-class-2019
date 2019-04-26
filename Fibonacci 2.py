@@ -1,8 +1,8 @@
 seq = [1, 1]
-i = 2
+i = 1
 
 while i < 22:
     new_member = seq[i - 1] + seq[i - 2]
     seq = seq + [new_member]
     print(seq)
-    i - i + 1
+    i = i + 1
