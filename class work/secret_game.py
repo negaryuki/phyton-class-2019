@@ -1,18 +1,18 @@
 import random
 
 secret = random.randint(1, 10)
-guess = int(input())
+/print(secret)
+guess = int(input("--->"))
+while True:
 
-while secret != "guess":
-    print
     if guess < secret:
         print("guess is low")
-        guess = int(input())
+        guess = int(input("--->"))
     elif guess > secret:
         print("guess is high")
-        guess = int(input())
+        guess = int(input("--->"))
     else:
-        print
+
         print("you guessed it!")
         break
 
