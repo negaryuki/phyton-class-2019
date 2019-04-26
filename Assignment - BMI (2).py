@@ -10,9 +10,9 @@ print('Almost there, now please enter your height:')
 height = float(input())
 
 if answer == "Yes" or "yes":
-    BMI = weight / (height ** 2)
+    BMI = weight / (height * height)
 else:
-    BMI = 703 * (weight / (height ** 2))
+    BMI = 703 * (weight / (height * height))
 
 print('and your BMI is: ', BMI)
 
