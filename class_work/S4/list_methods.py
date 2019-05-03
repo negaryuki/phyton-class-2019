@@ -9,3 +9,12 @@ lst.append(9)
 
 print(lst)
 
+# ID Function
+
+print(id(lst))
+
+mx = max(lst)
+
+lst.remove(mx)
+print(lst)
+
