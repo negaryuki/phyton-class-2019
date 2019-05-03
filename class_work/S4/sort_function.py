@@ -1,10 +1,11 @@
 def sort(lst):
     lst_sorted = []
+    lst_2 = lst.copy()
 
-    while len(lst) > 0:
-        mx = max(lst)
+    while len(lst_2) > 0:
+        mx = max(lst_2)
         lst_sorted.append(mx)
-        lst.remove(mx)
+        lst_2.remove(mx)
 
     return lst_sorted
 
