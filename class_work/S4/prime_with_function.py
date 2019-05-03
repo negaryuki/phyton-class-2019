@@ -15,4 +15,4 @@ def is_prime2(m):
     return result
 
 
-print(is_prime(12))
+print(is_prime(1328679687687687687687686876587576465354328))
