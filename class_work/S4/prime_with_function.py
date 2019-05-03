@@ -1,10 +1,9 @@
-def prime(i, number):
-    is_prime = True
-    while i < number-1:
-    i = i + 1
-    if number % i == 0:
-        is_prime = False
-    return is_prime
+def is_prime(n):
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+    return True
 
 
-print(is_prime)
+print(is_prime(12))
+
