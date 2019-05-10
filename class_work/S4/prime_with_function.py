@@ -8,6 +8,7 @@ def is_prime(n):
 
 # Method 2
 def is_prime2(m):
+    
     result = True
     for i in range(2, m):
         if m % i == 0:
