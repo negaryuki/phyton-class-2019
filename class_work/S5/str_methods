@@ -1,0 +1,6 @@
+text = "hello world hello hello"
+
+def unique_words (text):
+    words = text.split()
+    uniques = list (set(words))
+
