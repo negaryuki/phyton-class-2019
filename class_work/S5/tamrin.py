@@ -5,8 +5,9 @@ end = lst[1:]
 lst_sorted =[]
 
 for i in range(len(lst) - 1):
-    print(end[i] - start[i])
     difference = end[i] - start[i]
-    difference.append[lst_sorted]
+    lst_sorted.append(difference)
 
-    print(lst_sorted)
+
+
+print(lst_sorted)
