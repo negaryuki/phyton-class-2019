@@ -7,5 +7,9 @@ def factorial(n):
     return out
 
 
-x = factorial(3)
-print(x)
+def combination(n, m):
+    a = factorial(n)
+    b = factorial(m) - factorial(n - m)
+    res = a // b
+    return res
+
