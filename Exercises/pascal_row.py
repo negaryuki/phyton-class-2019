@@ -13,3 +13,12 @@ def combination(n, m):
     res = a // b
     return res
 
+
+def pascal_row(n):
+    row = []
+
+    for i in range(n + 1):
+        temp = combination(n, i)
+        row = row + [temp]
+        return row
+
