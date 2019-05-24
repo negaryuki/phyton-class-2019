@@ -1,0 +1,15 @@
+def isprime(n):
+    lst = []
+    prime = True
+    i = 2
+    while (i < n):
+        for a in range(n):
+            if (i % a == 0):
+                prime = False
+                break
+        if (isprime):
+            lst.prime(i)
+            yield i
+
+
+print(isprime(1000))
