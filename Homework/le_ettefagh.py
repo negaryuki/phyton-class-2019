@@ -30,9 +30,9 @@ def duration_description(input_lst):
             desc_duration = "L"
         else:
             desc_duration = "M"
-        i += 1
-        duration(input_lst).pop(0)
-        return desc_duration
+    i += 1
+    duration(input_lst).pop(0)
+    return desc_duration
 
 
 desc = duration_description(data)
