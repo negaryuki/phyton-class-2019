@@ -28,4 +28,4 @@ def is_prime2(number):
 
 prime_or_not = is_prime(get_input())
 
-print(prime_or_not)
+
