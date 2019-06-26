@@ -1,7 +1,7 @@
 import random
 
 secret = random.randint(1, 10)
-/print(secret)
+print(secret)
 guess = int(input("--->"))
 while True:
 
