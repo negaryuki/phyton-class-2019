@@ -9,16 +9,23 @@ def get_input():
 
 
 def is_prime(a):
-    for i in range(a):
+    for i in range(2,a):
         if a % i == 0:
             print(a, "is not Prime")
             break
         else:
             print(a, "is Prime")
-        return a
+            break
+    return a
+
+def is_prime2(number):
+    prime = True
+    for i in range(2,number):
+        if number % i == 0:
+            prime: False
+        return prime
 
 
-num = get_input()
-prime_or_not = is_prime(num)
+prime_or_not = is_prime(get_input())
 
 print(prime_or_not)
