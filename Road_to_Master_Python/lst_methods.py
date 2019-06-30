@@ -85,3 +85,5 @@ lst4.sort()
 print('new lst4 =', '', lst4)
 lst4.sort(reverse=True)
 print('new lst4 =', '', lst4)
+
+
