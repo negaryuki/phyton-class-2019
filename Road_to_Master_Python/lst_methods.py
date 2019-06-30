@@ -31,9 +31,33 @@ lst3.extend([1, 2])
 print(lst3)
 lst3.append([1, 2])
 print(lst3)
-#IMPORTANT POINT: The Difference between .append and . extend is that if you use :
+# IMPORTANT POINT: The Difference between .append and . extend is that if you use :
 # .append for 2 data, the data will be nested in the list : ['a', [1, 2]]
-#.extend for 2 data, then the data will be added just normally to the list : ['a', 1, 2]
+# .extend for 2 data, then the data will be added just normally to the list : ['a', 1, 2]
 
 # _________________________________________________________________________
-# Method6:
+# Method6: index()
+
+print(lst3.index('c'))
+
+# _________________________________________________________________________
+# Method7: list.insert(index, element)
+
+print(lst2.insert(0, 'apple'))  ## WHY NONE?
+
+# _________________________________________________________________________
+# Method7: list.pop(index) -----> If no parameter is passed, the default index -1
+
+print(lst2)
+print(lst2.pop())  # = lst2.pop(-1)
+print(lst2)
+print(lst2.pop(0))
+print(lst2)
+
+#let's mix some methods :
+
+print(lst3)
+element = lst2.pop(0)
+print(element)
+lst3.append(element)
+print(lst3)
