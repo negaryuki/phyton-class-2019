@@ -43,7 +43,8 @@ print(lst3.index('c'))
 # _________________________________________________________________________
 # Method7: list.insert(index, element)
 
-print(lst2.insert(0, 'apple'))  ## WHY NONE?
+lst2.insert(0, 'apple')
+print(lst2)
 
 # _________________________________________________________________________
 # Method7: list.pop(index) -----> If no parameter is passed, the default index -1
@@ -54,10 +55,33 @@ print(lst2)
 print(lst2.pop(0))
 print(lst2)
 
-#let's mix some methods :
+# let's mix some methods :
 
 print(lst3)
 element = lst2.pop(0)
 print(element)
 lst3.append(element)
 print(lst3)
+
+# _________________________________________________________________________
+# Method8: .remove()
+
+print('lst2 =', '', lst2)
+lst2.remove(5)
+print('new lst2 =', '', lst2)
+
+# _________________________________________________________________________
+# Method9: .reverse() -----------> The reverse() function doesn't take any argument.
+
+print('lst2 =', '', lst2)
+lst2.reverse()
+print('new lst2 =', '', lst2)
+# _________________________________________________________________________
+# Method10: .sort() ----------------> Key: ..... & reversed = True/False
+
+lst4 = [2, 33, 67, 98, 99]
+print('lst4 =', '', lst4)
+lst4.sort()
+print('new lst4 =', '', lst4)
+lst4.sort(reverse=True)
+print('new lst4 =', '', lst4)
