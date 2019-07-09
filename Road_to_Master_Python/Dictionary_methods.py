@@ -1,0 +1,33 @@
+country = {
+    "Iran": "Tehran",
+    "Germany": "Berlin",
+    "England": "London"
+}
+
+phone = {
+    "Model": "Iphone",
+    "Country": "England",
+    "Phone No.": 78798
+}
+
+# Method1: clear()
+
+print(country)
+country.clear()
+print(country)
+# _________________________________________________________________________
+# Method2: copy()
+
+phone2 = phone.copy()
+print('phone2 = ', phone2)
+
+# _________________________________________________________________________
+# Method3: .fromkeys(keys, value)
+new_dct = {}
+val = 23
+key = ('a', 'b', 'c')
+
+new_dct = new_dct.fromkeys(key, val)
+print(new_dct)
+# _________________________________________________________________________
+# Method4: .get
