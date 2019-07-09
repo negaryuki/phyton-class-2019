@@ -30,4 +30,18 @@ key = ('a', 'b', 'c')
 new_dct = new_dct.fromkeys(key, val)
 print(new_dct)
 # _________________________________________________________________________
-# Method4: .get
+# Method4: .get()
+
+get_key = phone.get("Model")
+print(get_key)
+
+# _________________________________________________________________________
+# Method5: .items()
+# change dic to tuple, and use indexes
+
+phone_tpl = phone2.items()
+phone2["Model"] = "Samsung"  #write the source
+print(phone_tpl)
+
+
+
